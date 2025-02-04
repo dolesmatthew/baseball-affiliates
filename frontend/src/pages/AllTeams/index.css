@@ -1,0 +1,15 @@
+.teamList {
+  margin: auto;
+  padding: 0px;
+  width: 90%;
+}
+
+@media (max-width: 750px) {
+  .searchButtons button {
+    display: none;
+  }
+  .teamSearch {
+    width: 80% !important;
+    padding: 10px;
+  }
+}

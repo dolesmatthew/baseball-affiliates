@@ -1,0 +1,76 @@
+.teamListTitle {
+  text-align: left;
+  font-size: 18px;
+  overflow: hidden;
+  color: rgb(128, 126, 126);
+}
+
+.teamListTitle span:after {
+  content: '';
+  display: inline-block;
+  height: 0.7em;
+  vertical-align: bottom;
+  width: 100%;
+  margin-right: -100%;
+  margin-left: 10px;
+  border-top: 1px solid rgb(170, 170, 170);
+}
+
+.teamListItem {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px auto;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.3);
+  color: black !important;
+}
+
+.teamListItem img {
+  height: 100%;
+  float: left;
+  margin-right: 2%;
+  margin-left: 1%;
+}
+
+.teamListItem .itemName {
+  float: left;
+}
+
+.teamListItem .itemLeague {
+  float: right;
+  margin-right: 1%;
+}
+
+.AAA {
+  width: 94%;
+}
+
+.AA {
+  width: 86%;
+}
+
+.A,
+.SS {
+  width: 78%;
+}
+
+.R {
+  width: 70%;
+}
+
+@media (max-width: 1000px) {
+  .teamListItem {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .teamListItem {
+    font-size: 18px;
+    height: 48px;
+  }
+}

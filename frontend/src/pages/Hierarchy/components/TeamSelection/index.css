@@ -1,0 +1,23 @@
+.teamSelect {
+  background-color: white;
+  z-index: 100;
+  position: sticky;
+  top: 50px;
+  border-top: 2px solid #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+.teamSelectList img {
+  width: 2%;
+  margin: 0.5%;
+  opacity: 0.5;
+}
+
+.teamSelectList img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.selectedTeam {
+  opacity: 1 !important;
+}

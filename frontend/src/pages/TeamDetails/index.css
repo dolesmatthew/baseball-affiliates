@@ -1,0 +1,112 @@
+.teamDetailContainer {
+  width: 85%;
+}
+
+.r1,
+.r2 {
+  display: flex;
+  width: 100%;
+}
+
+.teamLogo {
+  min-width: 350px;
+  max-width: 350px;
+}
+
+.teamLogoImage {
+  height: 100%;
+  padding: 20px;
+}
+
+.teamDetails {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.teamStadium {
+  width: 100%;
+  padding: 10px;
+}
+
+.teamDetailCard {
+  height: 350px;
+  border-radius: 25px !important;
+  font-size: 20px;
+}
+
+.teamDetailStadiun {
+  height: 500px;
+}
+
+.teamDetailsBody {
+  display: flex;
+}
+
+.teamDetailsLeft,
+.teamDetailsRight {
+  padding: 0 20px;
+  width: 50%;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.teamDetailsField {
+  display: flex;
+}
+
+@media (max-width: 1150px) {
+  .r1,
+  .r2 {
+    display: block;
+    padding: 5px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .teamLogo {
+    min-width: 250px;
+    max-width: 250px;
+    padding: 10px;
+  }
+
+  .teamLogo,
+  .teamDetails,
+  .teamStadium {
+    width: 95%;
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .teamLogo {
+    width: 50%;
+  }
+
+  .teamDetailCard {
+    height: auto;
+  }
+
+  .teamDetailStadiun {
+    height: 500px;
+  }
+}
+
+@media (max-width: 800px) {
+  .teamDetailContainer {
+    width: 100%;
+  }
+  .teamDetailsBody {
+    display: block;
+    padding: 10px;
+  }
+
+  .teamDetailsLeft,
+  .teamDetailsRight {
+    padding: 0px;
+    width: 100%;
+  }
+}

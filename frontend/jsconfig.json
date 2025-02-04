@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "functions": ["functions"],
+      "hooks": ["hooks"],
+      "images": ["images"],
+      "pages": ["pages"],
+      "shared": ["shared"]
+    }
+  }
+}
