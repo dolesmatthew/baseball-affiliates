@@ -31,7 +31,7 @@ const AllTeams = () => {
         responseData = await sendRequest(
           process.env.NODE_ENV === 'development'
             ? 'http://localhost:5000/teams/'
-            : 'https://baseball-node.onrender.com/teams',
+            : 'https://baseball-affiliates.onrender.com/teams',
         );
         sessionStorage.setItem('teams', JSON.stringify(responseData));
       } catch (error) {
